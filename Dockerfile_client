@@ -1,5 +1,6 @@
 FROM node:18
 
+<<<<<<< HEAD
 RUN apt-get update && \
   apt-get install -y vim less python3 python3-pip build-essential && \
   ln -s /usr/bin/python3 /usr/bin/python
@@ -15,3 +16,10 @@ RUN pnpm install --frozen-lockfile
 COPY . .
 
 CMD ["pnpm", "run", "build"]
+=======
+FROM node:18
+RUN apt-get update && \
+  apt-get install -y vim less python3 python3-pip build-essential && \
+  ln -s /usr/bin/python3 /usr/bin/python
+RUN npm install -g pnpm nodemon
+>>>>>>> 089f4d1c5703f36a7ac812b192b01c33819536a2
