@@ -3,7 +3,7 @@ services:
     build:
       context: ./client
       dockerfile: ../Dockerfile_client
-    command: pnpm run build
+    command: pnpm run start
     working_dir: /app
     tty: true
     environment:

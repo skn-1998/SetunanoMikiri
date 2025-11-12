@@ -1,5 +1,8 @@
 # 刹那の見斬り - リアルタイム対戦ゲーム
 
+[アプリケーションのデモ動画](https://youtu.be/8Ob51H9rS1U)
+
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178C6?logo=typescript)
